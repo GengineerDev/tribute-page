@@ -1,6 +1,6 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #title, .years {
@@ -17,3 +17,40 @@ html {
     margin: auto;
     border-radius: 8px;
 }
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-caption, .originator {
+    font-family: Cambria, Georgia, serif;
+}
+
+#image {
+    max-width: 70%;
+    height: 70%;
+}
+
+#img-caption span {
+    background-color:rgb(255, 247, 247);
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.bold-italic {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.originator {
+    font-weight: 800;
+    margin-top: 0;
+    color: #363232;
+    letter-spacing: 0.3px;
+}
+
