@@ -1,6 +1,7 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    color: #e8ebe9;
 }
 
 #title, .years {
@@ -31,6 +32,13 @@ html {
     font-family: Cambria, Georgia, serif;
 }
 
+#tribute-info {
+    margin-top: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #image {
     max-width: 70%;
     height: 70%;
@@ -38,6 +46,7 @@ html {
 
 #img-caption span {
     background-color:rgb(255, 247, 247);
+    color: black;
     font-size: 0.8rem;
     margin-bottom: 0;
 }
@@ -54,3 +63,7 @@ html {
     letter-spacing: 0.3px;
 }
 
+#tribute-info ul > li:not(.first-item){
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
