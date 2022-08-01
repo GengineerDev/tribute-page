@@ -99,7 +99,7 @@ h3 {
     text-align: center;
 }
 
-a:visited{
+a:link, a:visited{
     color: #f5f5f5;
 }
 
